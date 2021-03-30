@@ -20,6 +20,7 @@
 		9632D7AC2613A9140014E887 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632D7AB2613A9140014E887 /* API.swift */; };
 		9632D7AF2613AC0B0014E887 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632D7AE2613AC0B0014E887 /* Network.swift */; };
 		9632D7B22613B1880014E887 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632D7B12613B1880014E887 /* MainViewController.swift */; };
+		9632D7D12613E3130014E887 /* LaunchDetails.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9632D7D02613E3130014E887 /* LaunchDetails.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9632D7AB2613A9140014E887 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		9632D7AE2613AC0B0014E887 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		9632D7B12613B1880014E887 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9632D7D02613E3130014E887 /* LaunchDetails.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchDetails.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,10 @@
 				9632D7902613A41D0014E887 /* Info.plist */,
 				9632D7A22613A6020014E887 /* schema.json */,
 				9632D7AB2613A9140014E887 /* API.swift */,
-				9632D7A62613A7DA0014E887 /* LaunchList.graphql */,
 				9632D7AE2613AC0B0014E887 /* Network.swift */,
 				9632D7B12613B1880014E887 /* MainViewController.swift */,
+				9632D7A62613A7DA0014E887 /* LaunchList.graphql */,
+				9632D7D02613E3130014E887 /* LaunchDetails.graphql */,
 			);
 			path = RocketReserver;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				9632D78F2613A41D0014E887 /* LaunchScreen.storyboard in Resources */,
 				9632D78C2613A41D0014E887 /* Assets.xcassets in Resources */,
 				9632D7A72613A7DA0014E887 /* LaunchList.graphql in Resources */,
+				9632D7D12613E3130014E887 /* LaunchDetails.graphql in Resources */,
 				9632D78A2613A41C0014E887 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
