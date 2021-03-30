@@ -47,7 +47,8 @@ class MainViewController: UITableViewController {
       switch listSection {
       case .launches:
         let launch = self.launches[indexPath.row]
-        cell.textLabel?.text = launch.site
+        cell.textLabel?.text = launch.mission?.name
+        cell.detailTextLabel?.text = launch.site
       }
         
       return cell
